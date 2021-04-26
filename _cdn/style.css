@@ -281,7 +281,7 @@
 	flex-wrap: wrap;
 	margin: 5px 2px;
 	justify-content: flex-start;
-	background-color: rgba(255, 255, 255, 0.5);
+	background-color: transparent;
 	align-items: center;
 	padding: 10px;
 	box-shadow: 0 4px 10px 0 rgb(52 160 164 / 50%), 0 4px 10px 0 rgb(52 160 164 / 59%); 
@@ -316,7 +316,7 @@
 }
 
 /*============================================================
-*							Choice
+*							Contact
 *==============================================================*/
 
 .main_contact{
@@ -342,16 +342,21 @@
 }
 
 .contact_content form{
-	display: flex;
 	flex-basis: 50%;
-	flex-wrap: wrap;
+}
+
+.contact_content form .form_content{
+	width: 100%;
+	display: flex;
 	justify-content: space-between;
+	flex-wrap: wrap;
 }
 
 .contact_content form .input_content{
 	display: flex;
-	flex-basis: 50%;
+	flex-basis: calc(50% - 10px);
 	flex-direction: column;
+	margin: 0 5px;
 }
 
 form .input_content input{
@@ -361,4 +366,5 @@ form .input_content input{
 
 .contact_content form textarea{
 	flex-basis: 50%;
+	margin-top: 7px;
 }
