@@ -1,0 +1,46 @@
+.btn{
+	border: none;
+	color: #fff;
+	cursor: pointer;
+	padding: 10px 20px;
+}
+
+.success{
+	background-color: #3FC1C0;
+}
+
+.success:hover{
+	background-color: #20BAC5;
+}
+
+.info{
+	background-color: #1A5B92;
+}
+
+.info:hover{
+	background-color: #1D4E89;
+}
+
+.warning{
+	background-color: #E85D04;
+}
+
+.warning:hover{
+	background-color: #DC2F02;
+}
+
+.danger{
+	background-color: #D00000;
+}
+
+.danger:hover{
+	background-color: #9D0208;
+}
+
+.default{
+	background-color: #eee;
+}
+
+.default:hhover{
+	background-color: #ccc;
+}
