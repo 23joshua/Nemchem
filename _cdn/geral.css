@@ -19,6 +19,7 @@ ul{
 h1{
 	font-size: 2em;
 	font-weight: 900;
+<<<<<<< HEAD
 	padding: 40px 0;
 	text-transform: uppercase;
 }
@@ -36,4 +37,7 @@ p{
 .p_button{
 	margin-top: 30px;
 	margin-bottom: 30px;
+=======
+	text-transform: uppercase;
+>>>>>>> 684452398a942a546514e5407c0ff324dc25a7c3
 }

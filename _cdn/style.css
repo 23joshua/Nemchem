@@ -3,6 +3,10 @@
 	/*background-color: #069;*/
 	/*border-bottom: 1px solid #eee;*/
 	box-shadow: 0px 1px 1px #eee;
+<<<<<<< HEAD
+=======
+	z-index: 1;
+>>>>>>> 684452398a942a546514e5407c0ff324dc25a7c3
 }
 
 .main_content{
@@ -39,10 +43,18 @@
 *==============================================================*/
 
 .main_slider_show{
+<<<<<<< HEAD
+=======
+	width: 100%;
+>>>>>>> 684452398a942a546514e5407c0ff324dc25a7c3
 	height: 90vh;
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
+<<<<<<< HEAD
+=======
+	z-index: 1;
+>>>>>>> 684452398a942a546514e5407c0ff324dc25a7c3
 	background-image: url("../_img/architecture-2541038_1920.jpg");
 }
 
@@ -50,6 +62,7 @@
 *								About
 *==============================================================*/
 
+<<<<<<< HEAD
 .main_about{
 	position: relative;
 	width: 100%;
@@ -60,6 +73,23 @@
 	overflow: hidden;
 	color: #fff;
 	/*background-color: #ccc;*/
+=======
+/*.main_about{
+	position: relative;
+	width: 100%;
+	height: 50vh;
+}*/	
+
+.main_about{
+	position: relative;
+	width: 100%;
+	height: 80vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	overflow: hidden;
+	color: #fff;
+>>>>>>> 684452398a942a546514e5407c0ff324dc25a7c3
 }
 
 .main_about:before{
@@ -72,7 +102,11 @@
 	background: #168AAD;
 	border-radius: 0 0 50% 50%/ 0 0 100% 100%;
 	transform: scaleX(1.5);
+<<<<<<< HEAD
 	/*box-shadow: 0 4px 10px 0 rgb(0 0 0 / 20%), 0 4px 10px 0 rgb(0 0 0 / 20%);*/
+=======
+	box-shadow: 0 4px 10px 0 rgb(0 0 0 / 5%);
+>>>>>>> 684452398a942a546514e5407c0ff324dc25a7c3
 }
 
 .main_about .about_content{
@@ -89,7 +123,10 @@
 .main_shop{
 	width: 100%;
 	/*box-shadow: 0 4px 10px 0 rgb(0 0 0 / 10%), 0 4px 10px 0 rgb(0 0 0 / 9%);*/
+<<<<<<< HEAD
 	/*background-color: #ccc;*/
+=======
+>>>>>>> 684452398a942a546514e5407c0ff324dc25a7c3
 }
 
 .main_shop .shop_content{
@@ -97,10 +134,17 @@
 	margin: 0 auto;
 	display: flex;
 	padding: 20px 0;
+<<<<<<< HEAD
 	padding-top: 30px;
 	align-items: center;
 	flex-wrap: wrap;
 	justify-content: space-around;
+=======
+	align-items: center;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	background-color: #ddd;
+>>>>>>> 684452398a942a546514e5407c0ff324dc25a7c3
 }
 
 .main_shop .shop_content header{
@@ -113,7 +157,11 @@
 	width: 200px;
 	height: 200px;
 	border-radius: 50%;
+<<<<<<< HEAD
 	background-color: #168AAD;
+=======
+	background-color: #eee;
+>>>>>>> 684452398a942a546514e5407c0ff324dc25a7c3
 }
 
 .shop_content article figure{
@@ -146,7 +194,10 @@
 .main_shop .shop_content p{
 	flex-basis: 100%;
 	text-align: center;
+<<<<<<< HEAD
 	color: #76C893;
+=======
+>>>>>>> 684452398a942a546514e5407c0ff324dc25a7c3
 }
 
 /*============================================================
@@ -155,7 +206,11 @@
 
 .main_service{
 	width: 100%;
+<<<<<<< HEAD
 	height: auto;
+=======
+	height: 400px;
+>>>>>>> 684452398a942a546514e5407c0ff324dc25a7c3
 	position: relative;
 	overflow: hidden;
 	padding: 40px 0;
@@ -166,7 +221,11 @@
 	position: absolute;
 	width: 100%;
 	height: 100%;
+<<<<<<< HEAD
 	/*background-color: rgba(52 160 164 / 9%);*/
+=======
+	background-color: #fff;
+>>>>>>> 684452398a942a546514e5407c0ff324dc25a7c3
 	top: 0;
 	left: 0;
 	border-radius: 50% 50% 0% 0%/ 100% 100% 0% 0%;
@@ -176,6 +235,10 @@
 	     -o-transform: scaleX(2.5);
 	        transform: scaleX(2.5);
 	box-shadow: 0 4px 10px 0 rgb(0 0 0 / 10%), 0 4px 10px 0 rgb(0 0 0 / 9%);        
+<<<<<<< HEAD
+=======
+	/*box-shadow: 0 4px 10px 0 rgb(0 0 0 / 10%), 0 4px 10px 0 rgb(0 0 0 / 9%);        */
+>>>>>>> 684452398a942a546514e5407c0ff324dc25a7c3
 }
 
 .service_content{
@@ -195,17 +258,26 @@
 }
 
 .service_content article{
+<<<<<<< HEAD
 	width: 690px;
 	background: transparent;
 	height: 40px;
 	margin: 1px 0;
 	text-align: left;
+=======
+	width: 550px;
+	height: 45px;
+	margin: 2px 50px 0 0;
+	text-align: left;
+	background: #fff;
+>>>>>>> 684452398a942a546514e5407c0ff324dc25a7c3
 	padding: 10px 10px;
 	-webkit-transform: skewX(20deg);
 	   -moz-transform: skewX(20deg);
 	    -ms-transform: skewX(20deg);
 	     -o-transform: skewX(20deg);
 	        transform: skewX(20deg);
+<<<<<<< HEAD
 	box-shadow: 0 4px 10px 0 rgb(52 160 164 / 50%), 0 4px 10px 0 rgb(52 160 164 / 59%);        
 }
 
@@ -223,6 +295,25 @@
 
 .service_content .skew_5{
 	margin-right: -130px;
+=======
+	box-shadow: 0 4px 10px 0 rgb(0 0 0 / 10%), 0 4px 10px 0 rgb(0 0 0 / 9%);        
+}
+
+.skew_244{
+	margin-right: -1000px;
+}
+
+.service_content .skew_3{
+	/*margin-right: 30px;*/
+}
+
+.service_content .skew_4{
+	/*margin-right: -10px;*/
+}
+
+.service_content .skew_5{
+	/*margin-right: -10px;*/
+>>>>>>> 684452398a942a546514e5407c0ff324dc25a7c3
 }
 
 .service_content article p{
@@ -239,13 +330,22 @@
 	background-color: rgb(255 2555 255 / 90%);
 	border-radius: 50%;
 	position: absolute;
+<<<<<<< HEAD
 	top: 110px;
 	right: 180px;
+=======
+	top: 80px;
+	right: 240px;
+>>>>>>> 684452398a942a546514e5407c0ff324dc25a7c3
 	padding: 5px;
 	box-shadow: 0 4px 10px 0 rgb(0 0 0 / 20%), 0 4px 10px 0 rgb(0 0 0 / 9%); 
 }
 
+<<<<<<< HEAD
 .service_content figure img{
+=======
+.service_content figure div{
+>>>>>>> 684452398a942a546514e5407c0ff324dc25a7c3
 	background-color: #ccc;
 	width: 100%;
 	height: 100%;
@@ -258,8 +358,11 @@
 
 .main_choice{
 	width: 100%;
+<<<<<<< HEAD
 	padding-bottom: 40px;
 	background-image: url("../_img/the-cleaner-in-a-clean-glass-building.jpg");
+=======
+>>>>>>> 684452398a942a546514e5407c0ff324dc25a7c3
 }
 
 .choice_content{
@@ -281,10 +384,17 @@
 	flex-wrap: wrap;
 	margin: 5px 2px;
 	justify-content: flex-start;
+<<<<<<< HEAD
 	background-color: transparent;
 	align-items: center;
 	padding: 10px;
 	box-shadow: 0 4px 10px 0 rgb(52 160 164 / 50%), 0 4px 10px 0 rgb(52 160 164 / 59%); 
+=======
+	background-color: #fff;
+	align-items: center;
+	padding: 10px;
+	box-shadow: 0 4px 10px 0 rgb(0 0 0 / 10%), 0 4px 10px 0 rgb(0 0 0 / 9%); 
+>>>>>>> 684452398a942a546514e5407c0ff324dc25a7c3
 }
 
 .choice_content article header{
@@ -293,7 +403,11 @@
 
 .choice_content article figure{
 	flex-basis: 20%;
+<<<<<<< HEAD
 	height: 53%;
+=======
+	height: 55%;
+>>>>>>> 684452398a942a546514e5407c0ff324dc25a7c3
 	border-radius: 50%;
 	/*background: #333;*/
 	/*padding: 4px;*/
@@ -305,8 +419,13 @@
 	height: 100%;
 	border-radius: 50%;
 	padding: 2px;
+<<<<<<< HEAD
 	border: 4px solid #34A0A4;
 	/*background-color: blue;*/
+=======
+	border: 4px solid red;
+	background-color: blue;
+>>>>>>> 684452398a942a546514e5407c0ff324dc25a7c3
 }
 
 .choice_content article p{
@@ -316,7 +435,11 @@
 }
 
 /*============================================================
+<<<<<<< HEAD
 *							Contact
+=======
+*							Choice
+>>>>>>> 684452398a942a546514e5407c0ff324dc25a7c3
 *==============================================================*/
 
 .main_contact{
@@ -342,6 +465,7 @@
 }
 
 .contact_content form{
+<<<<<<< HEAD
 	flex-basis: 50%;
 }
 
@@ -350,13 +474,24 @@
 	display: flex;
 	justify-content: space-between;
 	flex-wrap: wrap;
+=======
+	display: flex;
+	flex-basis: 50%;
+	flex-wrap: wrap;
+	justify-content: space-between;
+>>>>>>> 684452398a942a546514e5407c0ff324dc25a7c3
 }
 
 .contact_content form .input_content{
 	display: flex;
+<<<<<<< HEAD
 	flex-basis: calc(50% - 10px);
 	flex-direction: column;
 	margin: 0 5px;
+=======
+	flex-basis: 50%;
+	flex-direction: column;
+>>>>>>> 684452398a942a546514e5407c0ff324dc25a7c3
 }
 
 form .input_content input{
@@ -366,10 +501,16 @@ form .input_content input{
 
 .contact_content form textarea{
 	flex-basis: 50%;
+<<<<<<< HEAD
 	margin-top: 7px;
 }
 
 .contact_content .form_content button{
 	margin-left: 87.3%;
 	margin-top: 20px;
+=======
+	width: 100%;
+	height: 130px;
+	margin-top: 7px;
+>>>>>>> 684452398a942a546514e5407c0ff324dc25a7c3
 }
