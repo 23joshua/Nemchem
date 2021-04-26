@@ -3,6 +3,7 @@
 	/*background-color: #069;*/
 	/*border-bottom: 1px solid #eee;*/
 	box-shadow: 0px 1px 1px #eee;
+	z-index: 1;
 }
 
 .main_content{
@@ -34,16 +35,17 @@
 	font-weight: 600;
 }
 
-<<<<<<< HEAD
 /*============================================================
 *						Slider Show
 *==============================================================*/
 
 .main_slider_show{
+	width: 100%;
 	height: 90vh;
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
+	z-index: 1;
 	background-image: url("../_img/architecture-2541038_1920.jpg");
 }
 
@@ -51,24 +53,16 @@
 *								About
 *==============================================================*/
 
-.main_about{
+/*.main_about{
 	position: relative;
 	width: 100%;
 	height: 50vh;
-=======
-.main_slider_show{
-	height: 80vh;
-	background-size: cover;
-	background-position: center;
-	background-repeat: no-repeat;
-	background-image: url("../_img/the-cleaner-in-a-clean-glass-building.jpg");
-}
+}*/	
 
 .main_about{
 	position: relative;
 	width: 100%;
 	height: 80vh;
->>>>>>> main
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -83,28 +77,19 @@
 	left: 0;
 	width: 100%;
 	height: 100%;
-<<<<<<< HEAD
 	background: #168AAD;
 	border-radius: 0 0 50% 50%/ 0 0 100% 100%;
 	transform: scaleX(1.5);
-	/*box-shadow: 0 4px 10px 0 rgb(0 0 0 / 20%), 0 4px 10px 0 rgb(0 0 0 / 20%);*/
-=======
-	background: linear-gradient(45deg, #ff0081, #6827b0);
-	border-radius: 0 0 50% 50%/ 0 0 100% 100%;
-	transform: scaleX(1.5);
 	box-shadow: 0 4px 10px 0 rgb(0 0 0 / 5%);
->>>>>>> main
 }
 
 .main_about .about_content{
 	position: relative;
 	max-width: 900px;
-	z-index: 1;
 	margin: 0 auto;
 	text-align: center;
 }
 
-<<<<<<< HEAD
 /*============================================================
 *								Shop
 *==============================================================*/
@@ -174,8 +159,6 @@
 *								Service
 *==============================================================*/
 
-=======
->>>>>>> main
 .main_service{
 	width: 100%;
 	height: 400px;
@@ -198,11 +181,8 @@
 	    -ms-transform: scaleX(2.5);
 	     -o-transform: scaleX(2.5);
 	        transform: scaleX(2.5);
-<<<<<<< HEAD
 	box-shadow: 0 4px 10px 0 rgb(0 0 0 / 10%), 0 4px 10px 0 rgb(0 0 0 / 9%);        
-=======
 	/*box-shadow: 0 4px 10px 0 rgb(0 0 0 / 10%), 0 4px 10px 0 rgb(0 0 0 / 9%);        */
->>>>>>> main
 }
 
 .service_content{
@@ -223,14 +203,10 @@
 
 .service_content article{
 	width: 550px;
-	background: #fff;
-<<<<<<< HEAD
-	height: 60px;
-=======
-	height: 65px;
->>>>>>> main
+	height: 45px;
 	margin: 1px 0;
 	text-align: left;
+	background: #fff;
 	padding: 10px 10px;
 	-webkit-transform: skewX(20deg);
 	   -moz-transform: skewX(20deg);
@@ -241,7 +217,7 @@
 }
 
 .service_content .skew_2{
-	margin-right: -33px;
+	margin-right: -400px;
 }
 
 .service_content .skew_3{
@@ -281,7 +257,6 @@
 	width: 100%;
 	height: 100%;
 	border-radius: 50%;
-<<<<<<< HEAD
 }
 
 /*============================================================
@@ -391,6 +366,6 @@ form .input_content input{
 
 .contact_content form textarea{
 	flex-basis: 50%;
-=======
->>>>>>> main
+	width: 100%;
+	height: 30px;
 }
