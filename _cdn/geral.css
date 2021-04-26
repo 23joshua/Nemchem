@@ -19,5 +19,21 @@ ul{
 h1{
 	font-size: 2em;
 	font-weight: 900;
+	padding: 40px 0;
 	text-transform: uppercase;
+}
+
+p{
+	font-size: 1.2em;
+	font-weight: 300;
+	line-height: 1.5;
+}
+
+.logo{
+	padding: 0;
+}
+
+.p_button{
+	margin-top: 30px;
+	margin-bottom: 30px;
 }
