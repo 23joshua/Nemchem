@@ -37,7 +37,11 @@ p{
 .p_button{
 	margin-top: 30px;
 	margin-bottom: 30px;
-=======
 	text-transform: uppercase;
->>>>>>> 684452398a942a546514e5407c0ff324dc25a7c3
+}
+
+
+.t{
+	background-color: transparent;
+	box-shadow: 0 4px 10px 0 rgb(52 160 164 / 50%), 0 4px 10px 0 rgb(52 160 164 / 59%);
 }
