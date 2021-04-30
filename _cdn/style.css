@@ -440,9 +440,9 @@
 	padding: 0 250px 40px;
 }
 
-.contact_content .maps{
+.contact_content #map{
 	flex-basis: 70%;
-	background-color: red;
+	/*background-color: red;*/
 }
 
 .contact_content form{
