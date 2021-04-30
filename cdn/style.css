@@ -1,7 +1,5 @@
 .main_header{
 	width: 100%;
-	/*background-color: #069;*/
-	/*border-bottom: 1px solid #eee;*/
 	box-shadow: 0px 1px 1px #eee;
 }
 
@@ -62,10 +60,8 @@
 	height: 50vh;
 	display: flex;
 	justify-content: center;
-	/*align-items: center;*/
 	overflow: hidden;
 	color: #fff;
-	/*background-color: #ccc;*/
 }
 
 .main_about:before{
@@ -94,8 +90,6 @@
 
 .main_shop{
 	width: 100%;
-	/*box-shadow: 0 4px 10px 0 rgb(0 0 0 / 10%), 0 4px 10px 0 rgb(0 0 0 / 9%);*/
-	/*background-color: #ccc;*/
 }
 
 .main_shop .shop_content{
@@ -569,11 +563,48 @@ form .input_content input:focus{
 	font-size: .9em;
 }
 
+/*============================================================
+*							
+*==============================================================*/
+/*============================================================
+*							
+*==============================================================*/
+
+/*1024px*/
+@media (max-width: 64em){
+    
+}
+
+/*900px*/
+@media (max-width: 56em){
+   
+	.main_shop .shop_content article{
+		flex-basis: calc(50% - 10px);
+		margin-bottom: 10px;
+	}
+
+}
+
+/*768px*/
+@media (max-width: 48em){
+    
+}
+
 
 /*640px*/
-@media (max-width:40em){
+@media (max-width: 40em){
+
     .main_shop .shop_content article{
-    	flex-basis: calc(10% - 10px);
-    	background-color: red;
+    	flex-basis: calc(100% - 10px);
+    	margin-bottom: 10px;
     }
+
+    .choice_content article{
+    	flex-basis: calc(80% - 10px); 
+    	margin: 0 5px;
+    }
+
+    .about_us .us_content article{
+    	flex-basis: calc(100% - 40px);    }
 }
+
