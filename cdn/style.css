@@ -7,7 +7,7 @@
 	max-width: 1300px;
 	display: flex;
 	margin: 0 auto;
-	padding: 20px 0;
+	/*padding: 20px 0;*/
 	flex-wrap: nowrap;
 	align-items: center;
 	justify-content: space-between;
@@ -21,21 +21,25 @@
 .main_nav{
 	display: flex;
 	max-width: 1000px;
-	/*background-color: #ccc;*/
 }
 
 .main_nav .nav_ul{
 	width: 100%;
 	display: flex;
+	align-items: stretch;
 }
 
 .main_nav .nav_ul li{
-	padding: 10px 10px;
+	display: flex;
+	align-items: center;
 }
 
 .nav_ul li a{
 	text-transform: uppercase;
 	font-weight: 600;
+	display: flex;
+	align-items: center;
+	padding: 0 26px;
 }
 
 /*============================================================
@@ -43,6 +47,7 @@
 *==============================================================*/
 
 .main_slider_show{
+	width: 100%;
 	height: 90vh;
 	background-size: cover;
 	background-position: center;
@@ -74,7 +79,6 @@
 	background: #168AAD;
 	border-radius: 0 0 50% 50%/ 0 0 100% 100%;
 	transform: scaleX(1.5);
-	/*box-shadow: 0 4px 10px 0 rgb(0 0 0 / 20%), 0 4px 10px 0 rgb(0 0 0 / 20%);*/
 }
 
 .main_about .about_content{
@@ -235,7 +239,6 @@
 .social_media{
 	padding: 60px 0;
 	margin-top: 40px;
-	/*background-color: #333;*/
 }
 
 .social_media a{
@@ -250,7 +253,7 @@
 .main_choice{
 	width: 100%;
 	padding: 100px 0;
-	background-image: url("../_img/the-cleaner-in-a-clean-glass-building.jpg");
+	background-image: url("../img/the-cleaner-in-a-clean-glass-building.jpg");
 }
 
 .choice_content{
@@ -290,8 +293,6 @@
 	flex-basis: 20%;
 	height: 53%;
 	border-radius: 50%;
-	/*background: #333;*/
-	/*padding: 4px;*/
 	border: 4px solid #ccc;
 }
 
@@ -301,7 +302,6 @@
 	border-radius: 50%;
 	padding: 2px;
 	border: 4px solid #34A0A4;
-	/*background-color: blue;*/
 }
 
 .choice_content article p{
@@ -455,14 +455,7 @@
 	justify-content: center;
 	align-items: center;
 	flex-direction: column;
-	/*position: relative;*/
 }
-
-/*.contact_content form .input_content{
-	display: flex;
-	flex-basis: calc(50% - 10px);
-	flex-direction: column;
-}*/
 
 form .form_content input{
 	width: 300px;
@@ -564,10 +557,10 @@ form .input_content input:focus{
 }
 
 /*============================================================
-*							
+*							Footer
 *==============================================================*/
 /*============================================================
-*							
+*							Footer
 *==============================================================*/
 
 /*1024px*/
@@ -578,11 +571,6 @@ form .input_content input:focus{
 /*900px*/
 @media (max-width: 56em){
    
-	.main_shop .shop_content article{
-		flex-basis: calc(50% - 10px);
-		margin-bottom: 10px;
-	}
-
 }
 
 /*768px*/
