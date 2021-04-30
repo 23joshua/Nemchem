@@ -11,7 +11,13 @@
 	margin: 0 auto;
 	padding: 20px 0;
 	flex-wrap: nowrap;
+	align-items: center;
 	justify-content: space-between;
+}
+
+.main_content .logo img{
+	width: 300px;
+	height: 70px;
 }
 
 .main_nav{
@@ -561,4 +567,12 @@ form .input_content input:focus{
 	font-weight: 200;
 	text-transform: capitalize;
 	font-size: .9em;
+}
+
+
+/*640px*/
+@media (max-width:40em){
+    .main_shop .shop_content article{
+    	flex-basis: calc(100% - 10px);
+    }
 }
