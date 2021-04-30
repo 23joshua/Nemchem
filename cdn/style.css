@@ -49,7 +49,7 @@
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
-	background-image: url("../_img/architecture-2541038_1920.jpg");
+	background-image: url("../img/architecture-2541038_1920.jpg");
 }
 
 /*============================================================
@@ -573,6 +573,7 @@ form .input_content input:focus{
 /*640px*/
 @media (max-width:40em){
     .main_shop .shop_content article{
-    	flex-basis: calc(100% - 10px);
+    	flex-basis: calc(10% - 10px);
+    	background-color: red;
     }
 }
