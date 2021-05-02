@@ -1,5 +1,6 @@
 .main_header{
 	width: 100%;
+	padding: 10px 0;
 	box-shadow: 0px 1px 1px #eee;
 }
 
@@ -440,9 +441,8 @@
 	padding: 0 250px 40px;
 }
 
-.contact_content #map{
+.contact_content .map{
 	flex-basis: 70%;
-	/*background-color: red;*/
 }
 
 .contact_content form{
@@ -495,7 +495,7 @@ form .input_content input:focus{
 }
 
 .footer .footer_content{
-	width: 1300px;
+	/*width: 1300px; */
 	margin: 0 auto;
 	padding: 40px 0;
 	display: flex;
@@ -570,11 +570,80 @@ form .input_content input:focus{
 
 /*900px*/
 @media (max-width: 56em){
+
+	.main_content .main_nav{
+		display: none;
+	}
+
+	.main_about{
+		height: 115vh;
+	}
+
+	.service_content{
+		justify-content: flex-start;
+		align-items: flex-start;
+	}
+
+	.service_content .skew_2{
+		margin-right: -33px;
+	}
+
+	.service_content .skew_3{
+		margin-right: -64px;
+	}
+
+	.service_content .skew_4{
+		margin-right: -97px;
+	}
+
+	.service_content .skew_5{
+		margin-right: -130px;
+	}
+
+	.service_content article{
+		height: 35px;
+		padding-top: 3px;
+		padding-bottom: 3px;	
+	}
+
+	.main_shop .shop_content article{
+		flex-basis: calc(30% - 10px);
+		margin-bottom: 40px;
+	}
+
+	.main_choice .choice_content article{
+		flex-basis: calc(50% - 10px);
+	}
+
+	.about_us .us_content article{
+		flex-basis: calc(50% - 40px);
+		margin-bottom: 40px;
+	}
+
+	.contact_content .map{
+		flex-basis: 50%;
+		margin: 0 10px;
+	}
+
+	.contact_content form{
+		flex-basis: 46%;
+	}
    
+	.footer .footer_content .footer_contact{
+		flex-basis: calc(50% - 10px);
+		background-color: red;
+	}
+
 }
 
 /*768px*/
 @media (max-width: 48em){
+
+	.footer .footer_content{
+		/*max-width: 768px;*/
+	}
+
+
     
 }
 
@@ -582,17 +651,36 @@ form .input_content input:focus{
 /*640px*/
 @media (max-width: 40em){
 
+	.main_about{
+		height: 236vh;
+	}
+
     .main_shop .shop_content article{
-    	flex-basis: calc(100% - 10px);
+    	flex-basis: 90%;
     	margin-bottom: 10px;
     }
 
-    .choice_content article{
-    	flex-basis: calc(80% - 10px); 
-    	margin: 0 5px;
+    .main_choice .choice_content{
+    	justify-content: center;
+    	margin: 0px;
+    }
+
+    .main_choice .choice_content article{
+    	flex-basis: 90%; 
+    	margin: 5px 0;
     }
 
     .about_us .us_content article{
-    	flex-basis: calc(100% - 40px);    }
+    	flex-basis: calc(100% - 40px);   
+	}
+
+	.contact_content .map{
+		flex-basis: 90%;
+		margin-bottom: 10px;
+	}
+
+	.contact_content form{
+		flex-basis: 90%;
+	}
 }
 
