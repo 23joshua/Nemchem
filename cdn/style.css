@@ -837,8 +837,7 @@ form .input_content input:focus{
 
 	form .form_content textarea{
 		width: 100%;
-	}
-    
+	}  
 }
 
 /*640px*/
@@ -858,6 +857,75 @@ form .input_content input:focus{
     	margin: 0 10px 20px 10px;
     }
 
+    .main_service{
+    	width: 100%;
+    	height: auto;
+    	position: relative;
+    	overflow: hidden;
+    	background-color: #F1F9F7;
+    }
+
+    .service_content{
+    	position: relative;
+    	max-width: 1300px;
+    	height: 100%;
+    	text-align: center;
+    	margin: 0 auto;
+    	display: flex;
+    	align-items: center;
+    	justify-content: center;
+    	align-items: center;
+    	flex-direction: column;
+    }
+
+    .service_content header h1{
+    	padding-top: 140px;
+    	padding-bottom: 10px;
+    }
+
+    .service_content header p{
+    	padding: 30px 5px 295px 5px;
+    }
+
+    .service_content article{
+    	width: 400px;        
+    }
+
+    .service_content .skew_1{
+    	margin-right: 0px;
+    }
+
+    .service_content .skew_2{
+    	margin-right: 0px;
+    }
+
+    .service_content .skew_3{
+    	margin-right: 0px;
+    }
+
+    .service_content .skew_4{
+    	margin-right: 0px;
+    }
+
+    .service_content .skew_5{
+    	margin-right: 0px;
+    }
+
+    .service_content figure{
+    	top: 415px;
+    	right: 96px; 
+    }
+
+    .social_media{
+    	padding: 35px 0;
+    	margin-top: 20px;
+    }
+
+    .social_media a{
+    	font-size: 1.5em;
+    	padding: 0 10px;
+    }
+
     .main_choice .choice_content{
     	justify-content: center;
     	margin: 0px;
@@ -875,10 +943,15 @@ form .input_content input:focus{
 	.contact_content form{
 		flex-basis: 90%;
 	}
+
+	.footer .footer_content .footer_contact{
+		flex-basis: 100%;
+		text-align: center;
+	}
 }
 
 /*425px*/
-@media (max-width: 26em){
+@media (max-width: 30em) {
 
 	.main_shop .shop_content{
 		justify-content: center;
@@ -888,12 +961,34 @@ form .input_content input:focus{
 		flex-basis: 80%;   
 	}
 
+	.main_choice .choice_content article{
+		justify-content: center;
+	}
+
+	.main_choice .choice_content article header{
+		flex-basis: 100%;
+		padding: 20px 0;
+		font-size: 1.5em;
+	}
+
+	.main_choice .choice_content article figure{
+		width: 97px;
+		height: 70px;
+		margin-bottom: 10px;
+	}
+
+	.main_choice .choice_content article p{
+		flex-basis: 100%;
+		text-align: center;
+		padding-bottom: 15px;
+	}
+
 }
 
 /*375px*/
-@media (max-width: 23em){
+/*@media (max-width: 23em){
 
 	.main_shop .shop_content article{
 		flex-basis: 90%;
 	}
-}
+}*/
