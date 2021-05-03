@@ -858,7 +858,7 @@ form .input_content input:focus{
     }
 
     .service_content header h1{
-    	padding-top: 140px;
+    	padding-top: 45px;
     	padding-bottom: 10px;
     }
 
@@ -891,7 +891,7 @@ form .input_content input:focus{
     }
 
     .service_content figure{
-    	top: 415px;
+    	top: 326px;
     	right: 96px; 
     }
 
@@ -967,7 +967,7 @@ form .input_content input:focus{
 	}
 
 	.service_content header h1{
-		padding-top: 140px;
+		padding-top: 49px;
 		padding-bottom: 10px;
 	}
 
@@ -985,12 +985,35 @@ form .input_content input:focus{
 	}
 
 	.service_content figure{
-		top: 446px;
+		top: 357px;
 		right: 66px; 
 	}
 
-	.social_media{
-		padding: 35px 0;
-		margin-top: 20px;
+	.main_choice .choice_content article figure{
+		width: 97px;
+		height: 64px;
 	}
+}
+
+/*320px*/
+@media (max-width: 20em){
+
+	.service_content header h1{
+		padding: 40px 10px 10px 10px;
+	}
+
+	.service_content article{
+		width: 300px;
+	}
+
+	.service_content figure{
+		top: 414px;
+		right: 35px; 
+	}
+
+	.main_choice .choice_content article figure{
+		width: 97px;
+		height: 56px;
+	}
+
 }
