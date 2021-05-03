@@ -566,6 +566,96 @@ form .input_content input:focus{
 /*1024px*/
 @media (max-width: 64em){
     
+    .main_about{
+    	height: 93vh;
+    }
+
+    .main_shop .shop_content article{
+    	flex-basis: calc(25% - 20px);
+    	margin: 0 10px 25px 10px;   
+    }
+
+    .service_content header h1{
+    	padding-top: 50px;
+    }
+
+    .service_content header p{
+    	padding: 30px 100px;
+    }
+
+    .service_content article{
+    	width: 610px;
+    }
+
+    .service_content article p{
+    	padding: 0;
+    }
+
+    .service_content .skew_1{
+    	margin-right: 87px;
+    }
+
+    .service_content .skew_2{
+    	margin-right: 57px;
+    }
+
+    .service_content .skew_3{
+    	margin-right: 25px;
+    }
+
+    .service_content .skew_4{
+    	margin-right: -7px;
+    }
+
+    .service_content .skew_5{
+    	margin-right: -38px;
+    }
+
+    .service_content figure{
+    	top: 231px;
+    	right: 117px;
+    }
+
+    .social_media{
+    	margin-top: -2px;
+    }
+
+    .main_choice{
+    	padding-top: 50px;
+    }
+
+    .about_us .us_content h1{
+    	padding-top: 0;
+    }
+
+    .choice_content article{
+    	flex-basis: calc(50% - 14px); 
+    }
+
+    .choice_content article figure{
+    	height: 66%;
+    }
+
+    .about_us .us_content article{
+    	flex-basis: calc(33% - 20px);\
+    }
+
+    .contact_content header p{
+    	padding: 0 100px 40px;
+    }
+
+    .contact_content .map{
+    	flex-basis: 69%;
+    }
+
+   .footer .footer_content a, p{
+   	flex-basis: 100%;
+   	padding: 0 30px;
+   }
+
+   .footer .footer_content h1{
+   	padding: 0;
+   }
 }
 
 /*900px*/
@@ -646,12 +736,74 @@ form .input_content input:focus{
 /*768px*/
 @media (max-width: 48em){
 
-	.main_about .about_content{
-		width: 680px;
+	.main_about{
+		height: 104vh;
 	}
 
 	.main_about .about_content .p_button{
 		margin: 50px 0;
+	}
+
+	.service_content{
+		align-items: center;
+		justify-content: center;
+	}
+
+	.service_content header p{
+		padding: 30px 50px;
+	}
+
+	.service_content article{
+		width: 566px;       
+	}
+
+	.service_content .skew_1{
+		margin-right: 120px;
+	}
+
+	.service_content .skew_2{
+		margin-right: 87px;
+	}
+
+	.service_content .skew_3{
+		margin-right: 53px;
+	}
+
+	.service_content .skew_4{
+		margin-right: 20px;
+	}
+
+	.service_content .skew_5{
+		margin-right: -12px;
+	}
+
+	.service_content article p{
+		font-size: 1em;
+	}
+
+	.service_content figure{
+		top: 216px;
+		right: 37px; 
+	}
+
+	.social_media{
+		margin-top: -1px;
+	}
+
+	.main_choice .choice_content{
+		justify-content: center;
+	}
+
+	.main_choice .choice_content article{
+		flex-basis: 90%; 
+	}
+
+	.about_us .us_content h1{
+		padding-bottom: 40px;
+	}
+
+	.about_us{
+		padding-bottom: 20px;
 	}
 
 	.main_contact .contact_content{
@@ -671,25 +823,29 @@ form .input_content input:focus{
 		margin-bottom: 10px;
 	}
 
-	.footer .footer_content{
-		/*max-width: 768px;*/
+	.contact_content form{
+		flex-basis: 60%;
 	}
 
+	.contact_content form .form_content{
+		width: 100%;
+	}
 
+	form .form_content input{
+		width: 100%;
+	}
+
+	form .form_content textarea{
+		width: 100%;
+	}
     
 }
-
 
 /*640px*/
 @media (max-width: 40em){
 
 	.main_about{
 		height: auto;
-	}
-
-	.main_about .about_content{
-		width: calc(100% - 20px);
-		margin: 0 10px;
 	}
 
 	.main_shop .shop_content{
@@ -716,13 +872,28 @@ form .input_content input:focus{
     	flex-basis: calc(100% - 40px);   
 	}
 
-	/*.contact_content .map{
-		flex-basis: 95%;
-		margin-bottom: 10px;
-	}*/
-
 	.contact_content form{
 		flex-basis: 90%;
 	}
 }
 
+/*425px*/
+@media (max-width: 26em){
+
+	.main_shop .shop_content{
+		justify-content: center;
+	}
+
+	.main_shop .shop_content article{
+		flex-basis: 80%;   
+	}
+
+}
+
+/*375px*/
+@media (max-width: 23em){
+
+	.main_shop .shop_content article{
+		flex-basis: 90%;
+	}
+}
