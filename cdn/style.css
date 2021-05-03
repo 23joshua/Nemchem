@@ -857,27 +857,6 @@ form .input_content input:focus{
     	margin: 0 10px 20px 10px;
     }
 
-    .main_service{
-    	width: 100%;
-    	height: auto;
-    	position: relative;
-    	overflow: hidden;
-    	background-color: #F1F9F7;
-    }
-
-    .service_content{
-    	position: relative;
-    	max-width: 1300px;
-    	height: 100%;
-    	text-align: center;
-    	margin: 0 auto;
-    	display: flex;
-    	align-items: center;
-    	justify-content: center;
-    	align-items: center;
-    	flex-direction: column;
-    }
-
     .service_content header h1{
     	padding-top: 140px;
     	padding-bottom: 10px;
@@ -919,11 +898,6 @@ form .input_content input:focus{
     .social_media{
     	padding: 35px 0;
     	margin-top: 20px;
-    }
-
-    .social_media a{
-    	font-size: 1.5em;
-    	padding: 0 10px;
     }
 
     .main_choice .choice_content{
@@ -986,9 +960,37 @@ form .input_content input:focus{
 }
 
 /*375px*/
-/*@media (max-width: 23em){
+@media (max-width: 26em){
 
 	.main_shop .shop_content article{
 		flex-basis: 90%;
 	}
-}*/
+
+	.service_content header h1{
+		padding-top: 140px;
+		padding-bottom: 10px;
+	}
+
+	.service_content header p{
+		padding: 30px 5px 295px 5px;
+	}
+
+	.service_content article{
+		width: 330px;  
+		padding: 10px 2px;      
+	}
+
+	.service_content article p{
+		font-size: .8em;
+	}
+
+	.service_content figure{
+		top: 446px;
+		right: 66px; 
+	}
+
+	.social_media{
+		padding: 35px 0;
+		margin-top: 20px;
+	}
+}
