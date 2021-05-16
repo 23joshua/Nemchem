@@ -526,7 +526,6 @@ form .input_content input:focus{
 /****************** Main_aside_shop ******************/
 
 .main_aside_shop{
-	display: flex;
 	flex-wrap: wrap;
 	margin-left: 80px;
 	margin-right: 10px;
@@ -540,7 +539,7 @@ form .input_content input:focus{
 	margin-bottom: 20px;
 }
 
-.main_aside_shop  h2{
+.main_aside_shop h2{
 	width: 100%;
 	color: #fff;
 	display: flex;
@@ -609,6 +608,7 @@ article .description{
 
 article .description h3{
 	flex-wrap: 600;
+	color: #184E77;
 	font-size: .99em;
 	margin-bottom: 5px;
 	text-transform: uppercase;
@@ -617,11 +617,15 @@ article .description h3{
 article .description span{
 	font-size: .25em;
 	margin-bottom: 5px;
-	color: #096;
+	color: #ccc;
+}
+
+article .description .color_star{
+	color: #D9ED92;
 }
 
 article .description .price{
-	color: red;
+	color: #34A0A4;
 }
 
 /******************* Main_aside_shop ***************/
@@ -640,10 +644,93 @@ article .description .price{
 }
 
 .main_shopp .shop_product .produt{
-	margin: 10px;
-	height: 300px;
+	margin: 0 10px 20px 10px;
+	/*height: auto;*/
 	background-color: #fff;
 	flex-basis: calc(25% - 20px);
+}
+
+.shop_product .produt figure{
+	width: 100%;
+	height: auto;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.shop_product .produt figure img{
+	width: 100%;
+	height: 300px;
+	margin-bottom: 10px;
+	border: none;
+}
+
+.produt figure figcaption .name{
+	font-weight: 700;
+	font-size: 1.1em;
+	color: #184E77;
+	text-transform: capitalize;
+}
+
+.produt figure figcaption span{
+	font-size: .22em;
+	color: #ccc;
+}
+
+.produt figure figcaption .color_star{
+	color: #D9ED92;
+}
+
+.produt figure figcaption .price{
+	font-size: 1.2em;
+	color: #34A0A4;
+	font-weight: 400;
+}
+
+.produt .shop_button{
+	width: 100%;
+	height: 43px;
+	padding: 7px 0;
+	border-top: 2px solid #ccc;
+}
+
+.produt .shop_button ul{
+	display: flex;
+	flex-basis: 100%;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.produt .shop_button ul .li_btn{
+	flex-basis: 80%;
+}
+
+.produt .shop_button ul .li_btn .btn{
+	padding: 12px 50px;
+	color: #3FC1C0;
+	font-weight: 700;
+	text-transform: uppercase;
+	background-color: transparent;
+}
+
+.produt .shop_button ul .li_btn .btn:hover{
+	background-color: #3FC1C0;
+	color: #fff;
+}
+
+.produt .shop_button ul .li_heart{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-basis: 20%;
+}
+
+.produt .shop_button ul i{
+	font-size: 1.5em;
+	color: #ccc;
+}
+
+.produt .shop_button ul .li_heart i:hover{
+	color: #D9ED92;
 }
 
 /*============================================================
