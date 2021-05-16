@@ -486,6 +486,167 @@ form .input_content input:focus{
 }
 
 /*============================================================
+*						Estilo do shop
+*==============================================================*/
+/*============================================================
+*						main_content_shop
+*==============================================================*/
+
+.main_content_shop{
+	width: 100%;
+	margin: 0;
+	display: flex;
+	flex-wrap: wrap;
+	background-color: #eee;
+	justify-content: space-between;
+}
+
+.main_shop_content{
+	max-width: 1280px;
+	margin: 0 auto;
+}
+
+.main_aside_shop, .main_shopp{
+	margin-top: 20px;
+}
+
+/****************** Shop_slider ******************/
+
+.main_content_shop .shop_slider{
+	height: 400px;
+	flex-basis: 100%;
+	background-color: #ccc;
+}
+
+.shop_slider .main_shop_content .exemp{
+	width: 100%;
+	height: 100%;
+}
+
+/****************** Main_aside_shop ******************/
+
+.main_aside_shop{
+	display: flex;
+	flex-wrap: wrap;
+	margin-left: 80px;
+	margin-right: 10px;
+	flex-basis: calc(25% - 90px);
+}
+
+.main_aside_shop .shop_menu, .shop_best_seller{
+	display: flex;
+	flex-wrap: wrap;
+	flex-basis: 100%;
+	margin-bottom: 20px;
+}
+
+.main_aside_shop  h2{
+	width: 100%;
+	color: #fff;
+	display: flex;
+	padding: 10px 0;
+	align-items: center;
+	margin-button: 10px;
+	background-color: #333;
+	justify-content: center;
+}
+
+.main_aside_shop .shop_menu{
+	width: 100%;
+	background-color: #fff;
+}
+
+.main_aside_shop ul{
+	flex-basis: 100%;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.main_aside_shop ul li{
+	flex-basis: 100%;
+	padding: 7px 10px;
+	font-size: 1em;
+	font-weight: 200;
+}
+
+.main_aside_shop ul li:hover{
+	background-color: #069;
+}
+
+.main_aside_shop ul li:hover a{
+	color: #fff;
+}
+
+.main_aside_shop ul li a{
+	font-weight: 600;
+	font-size: .9em;
+	color: #333;
+	text-transform: capitalize;
+}
+
+.shop_best_seller article{
+	display: flex;
+	margin: 10px 0;
+	flex-basis: 100%;
+	justify-content: flex-start;
+}
+
+.shop_best_seller article figure{
+	margin: 0 5px;
+	height: 90px;
+	background-color: #fff;
+	flex-basis: calc(40% - 10px);
+}
+
+.shop_best_seller article figure img{
+	width: 100%;
+	height: 100%;
+}
+
+article .description{
+	flex-basis: calc(70% - 10px);
+}
+
+article .description h3{
+	flex-wrap: 600;
+	font-size: .99em;
+	margin-bottom: 5px;
+	text-transform: uppercase;
+}
+
+article .description span{
+	font-size: .25em;
+	margin-bottom: 5px;
+	color: #096;
+}
+
+article .description .price{
+	color: red;
+}
+
+/******************* Main_aside_shop ***************/
+
+.main_shopp{
+	margin-left: 0px;
+	margin-right: 80px;
+	flex-basis: calc(75% - 80px);;
+}
+
+.main_shopp .shop_product{
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.main_shopp .shop_product .produt{
+	margin: 10px;
+	height: 300px;
+	background-color: #fff;
+	flex-basis: calc(25% - 20px);
+}
+
+/*============================================================
 *							Footer
 *==============================================================*/
 
@@ -539,6 +700,7 @@ form .input_content input:focus{
 .footer .footer_content .footer_contact a{
 	color: #34A0A4;
 	font-size: 1.2em;
+	text-align: center;
 }
 
 .right_direct{
@@ -557,10 +719,10 @@ form .input_content input:focus{
 }
 
 /*============================================================
-*							Footer
+*							Mobil
 *==============================================================*/
 /*============================================================
-*							Footer
+*							Mobil
 *==============================================================*/
 
 /*1024px*/
@@ -957,6 +1119,15 @@ form .input_content input:focus{
 		padding-bottom: 15px;
 	}
 
+}
+
+/*540px*/
+@media (max-width: 33em){
+
+	.service_content figure{
+		top: 326px;
+		right: 96px; 
+	}
 }
 
 /*375px*/
