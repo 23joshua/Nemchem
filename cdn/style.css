@@ -497,7 +497,7 @@ form .input_content input:focus{
 	margin: 0;
 	display: flex;
 	flex-wrap: wrap;
-	background-color: #eee;
+	/*background-color: #eee;*/
 	justify-content: space-between;
 }
 
@@ -513,12 +513,18 @@ form .input_content input:focus{
 /****************** Shop_slider ******************/
 
 .main_content_shop .shop_slider{
-	height: 400px;
-	flex-basis: 100%;
+	height: 500px;
+	flex-basis: 88.1%;
+	margin: 20px auto;
 	background-color: #ccc;
 }
 
-.shop_slider .main_shop_content .exemp{
+.shop_slider .main_shop_content{
+	width: 100%;
+	height: 100%;
+}
+
+.shop_slider .main_shop_content img{
 	width: 100%;
 	height: 100%;
 }
@@ -541,13 +547,14 @@ form .input_content input:focus{
 
 .main_aside_shop h2{
 	width: 100%;
-	color: #fff;
+	color: #333;
 	display: flex;
 	padding: 10px 0;
 	align-items: center;
 	margin-button: 10px;
-	background-color: #333;
+	background-color: #eee;
 	justify-content: center;
+	text-transform: uppercase;
 }
 
 .main_aside_shop .shop_menu{
@@ -628,12 +635,12 @@ article .description .price{
 	color: #34A0A4;
 }
 
-/******************* Main_aside_shop ***************/
+/******************* Main_shop ***************/
 
 .main_shopp{
 	margin-left: 0px;
 	margin-right: 80px;
-	flex-basis: calc(75% - 80px);;
+	flex-basis: calc(75% - 80px);
 }
 
 .main_shopp .shop_product{
@@ -662,6 +669,7 @@ article .description .price{
 	height: 300px;
 	margin-bottom: 10px;
 	border: none;
+	background-color: #eee;
 }
 
 .produt figure figcaption .name{
@@ -697,6 +705,7 @@ article .description .price{
 	display: flex;
 	flex-basis: 100%;
 	align-items: center;
+	padding: 7px 0;
 	justify-content: space-between;
 }
 
@@ -731,6 +740,83 @@ article .description .price{
 
 .produt .shop_button ul .li_heart i:hover{
 	color: #D9ED92;
+}
+
+
+/********************** Shop Promotion *************/
+
+.shop_promotion{
+	width: 100%;
+	height: auto;
+	margin-top: 20px;
+	margin-bottom: 40px;
+	background-color: #eee;
+	position: relative;
+}
+
+.shop_promotion .main_shop_content{
+	width: 100%;
+	display: flex;
+	padding: 50px;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.shop_promotion .main_shop_content header{
+	flex-basis: 40%;
+}
+
+.main_shop_content header h2{
+	font-weight: 700;
+	font-size: 2.2em;
+}
+
+.main_shop_content header h2 .span_h2{
+	font-weight: 200;
+}
+
+.shop_promotion .main_shop_content figure{
+	width: 60%;
+	height: 250px;
+	display: flex;
+	justify-content: flex-end;
+}
+
+.main_shop_content figure img{
+	width: 45%;
+	height: 100%;
+	top: 0;
+	right: 50;
+	position: absolute;
+
+}
+
+/****************** Secondary_Menu *****************/
+
+.secondary_menu{
+	margin: 0 auto;
+	flex-basis: 88.1%;
+	margin: 40px auto;
+	/*background-color: #eee;*/
+}
+
+.secondary_menu ul{
+	width: 100%;
+	padding: 20px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.secondary_menu ul li{
+	flex-basis: calc(20% - 40px);
+	margin: 20px;
+}
+
+.secondary_menu ul li img{
+	width: 100%;
+	height: 100px;
+	background-color: #ccc;
 }
 
 /*============================================================
